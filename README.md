@@ -23,3 +23,8 @@ Dashboard 1 - Order activity, which following data:
 9. Orders by address
 10. Orders by delivery/pick up
 
+Dashboard 2 - Inventory Management
+1. Total quantity by ingredient (we need to know how many ordered and what is the recipe/ingredients we need for each pizza)
+2. Total cost of ingredients
+3. Calculated cost of pizza
+4. Percentage stock remaining by ingredient
