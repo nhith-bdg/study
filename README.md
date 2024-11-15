@@ -12,15 +12,15 @@ So, I copied the data to Google Sheets and downloaded the CSV files. Then, I tri
 I'm going to build:
 
 Dashboard 1 - Order activity, which following data:
-1. Total orders
-2. Total sales
-3. Total items
-4. Average order value
-5. Sales by category
-6. Top selling items
-7. Orders by hour
-8. Sales by hour
-9. Orders by address
+1. Total orders = COUNTD(Order_Id)
+2. Total sales = Item_price * Quantity
+3. Total items = SUM(quantity)
+4. Average order value = SUM(total sales) / COUNTD(Order_Id)
+5. Sales by category (donut chart)
+6. Top selling items (bar chart)
+7. Orders by hour (line chart)
+8. Sales by hour (line chart)
+9. Orders by address (map)
 10. Orders by delivery/pick up
 
 Dashboard 2 - Inventory Management
@@ -28,3 +28,15 @@ Dashboard 2 - Inventory Management
 2. Total cost of ingredients
 3. Calculated cost of pizza
 4. Percentage stock remaining by ingredient
+
+
+Connect Tableau with MySQL Workbench
+- Following Tableau support https://www.tableau.com/support/drivers
+I installed the iODBC Driver Manager and the MySQL ODBC Connector for MacOS, I still got the Error Code: B19090E0.
+- I tried to check the MySQL connection, Firewall, and user permissions but it didn't work.
+- After 2 days trying to research about this error, I tried to install an older version of MySQL ODBC Connector, also restarted all the tools. Now it works well.
+
+
+
+
+
