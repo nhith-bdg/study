@@ -1,4 +1,5 @@
 This is my very first dashboard project!
+Reference: Adam Finer
 
 First, I used the QuickDBD tools to easily design all the tables that I needed for the project.
 Then, I created a database on MySQL Workbench and executed the code to create tables
