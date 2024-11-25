@@ -3,6 +3,8 @@ Reference: Adam Finer
 
 First, I used the QuickDBD tools to easily design all the tables that I needed for the project.
 Then, I created a database on MySQL Workbench and executed the code to create tables
+![PizzaDB Diagrams](https://github.com/user-attachments/assets/eef9f849-1902-48ed-9d81-2a7aca62dc3f)
+
 
 Errors - Import data into tables
 At first, I tried to import data on MySQL Workbench, but it didn't work. Even when I converted a CSV file to a JSON file, I got nothing. Then, I tried to import data on Navicat. It ran well until table Orders and Rotations were finished with errors (I think it's because those files have date and time values).
